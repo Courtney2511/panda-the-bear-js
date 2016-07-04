@@ -34,6 +34,7 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
 4. Change the colour of the body. (hint: use [css()](http://api.jquery.com/css/))
 
+  $("body").css({ "background-color": "red" })
 
 5. Change the colour used by the `highlight` class.
 
