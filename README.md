@@ -38,6 +38,8 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
 5. Change the colour used by the `highlight` class.
 
+  $(".highlight").css({ "color": "yellow" })
+
 6. Find a way to select the round icons in the sidebar and then change their colour.
 
 7. Scroll down to the contact form.  Change the placeholder attribute of the name field to "identify yourself".
