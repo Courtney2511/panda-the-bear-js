@@ -42,6 +42,8 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
 6. Find a way to select the round icons in the sidebar and then change their colour.
 
+  $(".action-icon-bg").css({ "background-color": "black" })
+
 7. Scroll down to the contact form.  Change the placeholder attribute of the name field to "identify yourself".
 
 8. Change the value attribute of the name field to "your nemesis".
