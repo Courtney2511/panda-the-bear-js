@@ -50,9 +50,11 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
 8. Change the value attribute of the name field to "your nemesis".
 
-$("#name.contact-info").attr("value", "your nemesis");
+  $("#name.contact-info").attr("value", "your nemesis");
 
 9. Change the value attribute of the email field to "koalathebear@gmail.com".
+
+  $("#email.contact-info").attr("value", "koalathebear@gmail.com");
 
 10. Change the value of the submit button on the contact form to "En garde!".
 
