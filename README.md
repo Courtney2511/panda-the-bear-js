@@ -46,6 +46,8 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
 7. Scroll down to the contact form.  Change the placeholder attribute of the name field to "identify yourself".
 
+  $("#name.contact-info").attr("placeholder", "identify yourself");
+
 8. Change the value attribute of the name field to "your nemesis".
 
 9. Change the value attribute of the email field to "koalathebear@gmail.com".
