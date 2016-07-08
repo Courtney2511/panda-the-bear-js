@@ -115,8 +115,14 @@ $("#right-image").clone().insertAfter("form");
 
   After that, find a way of selecting the `<ul>` and append the new `<li>` to it.  For bonus marks, apply the correct classes to these new elements of yours so the styling is consistent with the rest of the list items.
 
-
 \* you may notice that these functions are vanilla JavaScript and do not come from jQuery
+
+var rightSpan = document.createElement('span');
+var date = new Date();
+var updatedTime = document.createTextNode( date );
+rightSpan.appendChild(updatedTime);
+listItem.appendChild(rightSpan)
+$('.bio-info').append(listItem);
 
 
 ##Stretch Exercise:
